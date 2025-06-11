@@ -1,10 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-.labo {
+.logo{
+
+    width: 50%;
+    height: 50%;
+    background-image: url("../images/logo.png");
+    background-size: cover;
+    background-position: center;
+    margin: 5% auto;
 }
 
-.main {
+
+    
+
+
+p {
 	font-family: "Bebas Neue", sans-serif;
-	font-weight: 400;
-	font-style: normal;
+}
+
+
+.main h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
 }
