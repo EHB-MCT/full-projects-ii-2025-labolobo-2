@@ -1,27 +1,69 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-.logo{
 
-    width: 50%;
-    height: 50%;
-    background-image: url("../images/logo.png");
-    background-size: cover;
-    background-position: center;
-    margin: 5% auto;
+.logo {
+  width: 50%;
+  height: 50%;
+  background-image: url("../images/logo.png");
+  background-size: cover;
+  background-position: center;
 }
-
-
-    
-
 
 p {
-	font-family: "Bebas Neue", sans-serif;
+  font-family: "Nunito", sans-serif;
+  
 }
 
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
 
-.main h1 {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 2.5em;
-    text-align: center;
-    margin-top: 20px;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 64px;
+}
+
+/* buttons */
+
+/* when pressed orange buttons */
+.primary-active {
+  display: inline-block;
+  background: rgb(255, 187, 61);
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  box-shadow: 0 0px 0 #a96900;
+}
+
+/* mouse hovering orange buttons */
+.primary-hover {
+  display: inline-block;
+  background: rgb(247, 224, 183);
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  box-shadow: 0 5px 0 #bd9556;
+  border: none;
+}
+
+/* button inactive orange buttons*/
+.primary-inactive {
+  display: inline-block;
+  background: rgb(255, 169, 8);
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  box-shadow: 0 5px 0 #a96900;
+  border: none;
+}
+body {
+    
 }
