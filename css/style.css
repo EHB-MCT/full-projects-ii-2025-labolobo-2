@@ -27,43 +27,36 @@ h2 {
 
 /* buttons */
 
-/* when pressed orange buttons */
-.primary-active {
+.primary {
   display: inline-block;
-  background: rgb(255, 187, 61);
   width: 200px;
   height: 40px;
   border-radius: 15px;
   font-family: "Bebas Neue", sans-serif;
   font-size: 20px;
+}
+
+/* when pressed orange buttons */
+.active {
+  background: rgb(255, 187, 61);
   box-shadow: 0 0px 0 #a96900;
 }
 
 /* mouse hovering orange buttons */
-.primary-hover {
-  display: inline-block;
-  background: rgb(247, 224, 183);
-  width: 200px;
-  height: 40px;
-  border-radius: 15px;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 20px;
+.hover {
+  background: rgb(247, 224, 183); 
   box-shadow: 0 5px 0 #bd9556;
   border: none;
 }
 
 /* button inactive orange buttons*/
-.primary-inactive {
-  display: inline-block;
+.inactive {
   background: rgb(255, 169, 8);
-  width: 200px;
-  height: 40px;
-  border-radius: 15px;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 20px;
   box-shadow: 0 5px 0 #a96900;
   border: none;
 }
+
+
 body {
     
 }
