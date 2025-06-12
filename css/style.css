@@ -1,1 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+
+.logo {
+  width: 50%;
+  height: 50%;
+  background-image: url("../images/logo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 64px;
+}
+
+/* buttons */
+
+.primary {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+}
+
+/* when pressed orange buttons */
+.active {
+  background: rgb(255, 187, 61);
+  box-shadow: 0 0px 0 #a96900;
+}
+
+/* mouse hovering orange buttons */
+.hover {
+  background: rgb(247, 224, 183); 
+  box-shadow: 0 5px 0 #bd9556;
+  border: none;
+}
+
+/* button inactive orange buttons*/
+.inactive {
+  background: rgb(255, 169, 8);
+  box-shadow: 0 5px 0 #a96900;
+  border: none;
+}
+
+
+body {
+    
+}
